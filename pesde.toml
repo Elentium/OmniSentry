@@ -1,0 +1,24 @@
+name = "elentium/omnisentry"
+version = "0.1.3"
+description = "SerDes library for Roblox"
+authors = ["IAMNOTULTRA3"]
+repository = "https://github.com/Elentium/OmniSentry"
+license = "APACHE-2.0"
+includes = [
+    "src/**/*.luau",
+    ".vscode",
+    ".gitignore",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE",
+    "pesde.toml",
+    "stylua.toml"
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[indices]
+default = "https://github.com/pesde-pkg/index"

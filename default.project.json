@@ -1,0 +1,7 @@
+{
+  "name": "omnisentry",
+  "emitLegacyScripts": false,
+  "tree": {
+    "$path": "src"
+  }
+}

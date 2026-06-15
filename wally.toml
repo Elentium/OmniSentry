@@ -1,0 +1,6 @@
+[package]
+name = "elentium/omnisentry"
+version = "0.1.3"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["roblox", "pesde.toml", "docs", "pesde.lock"]
