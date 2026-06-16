@@ -186,6 +186,28 @@ body {
     opacity: 1;
 }
 
+.logo-family {
+    padding: 0 2rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    min-width: 0;
+}
+
+.logo-family__label {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 0.75rem 0;
+}
+
+.logo-links--family {
+    margin-top: 0;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.5rem;
+}
+
 /* Single full-width row (matches sidebar button proportions in main column) */
 .logo-links--installation {
     grid-template-columns: minmax(0, 1fr);

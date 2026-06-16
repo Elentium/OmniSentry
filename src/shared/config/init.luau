@@ -7,7 +7,7 @@ const constants = require("@self/constants")
 const typeSigns = require("@self/typeSigns")
 const createFailFn = require("@self/failFn")
 
-local config = {
+const config = {
 	-- constants
 	startingBufferSize = constants.startingBufferSize,
 	bufferExpandMultiplier = constants.bufferExpandMultiplier,
