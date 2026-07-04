@@ -1,0 +1,12 @@
+{
+    "name": "omnisentry",
+    "emitLegacyScripts": false,
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "OmniSentry": {
+                "$path": "src"
+            }
+        }
+    }
+  }
